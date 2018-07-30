@@ -2,9 +2,9 @@
 pipeline {
     agent any
  
-    tools {
+/*    tools {
         maven 'localMaven'
-    }
+    }*/
  
 stages{
         stage('Build'){
